@@ -5,7 +5,7 @@ A front-end boilerplate for building sites or web apps
 # Requirements
 
  * [node.js](https://nodejs.org/)
- * [NPM](https://www.npmjs.com//)
+ * [yarn](https://yarnpkg.com/lang/en/)
  
 # Dependencies
 
