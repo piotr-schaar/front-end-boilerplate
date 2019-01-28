@@ -18,16 +18,16 @@ A front-end boilerplate for building sites or web apps
 
 ## Project setup
 ```
- yarn in .tools folder
+ yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-gulp default .tools folder
+gulp default 
 ```
 
 ### Compiles and minifies for production
 ```
-gulp build .tools folder
+gulp build
 ```
 
