@@ -16,3 +16,18 @@ A front-end boilerplate for building sites or web apps
 * Eslint
 * Stylelint
 
+## Project setup
+```
+ yarn in .tools folder
+```
+
+### Compiles and hot-reloads for development
+```
+gulp default .tools folder
+```
+
+### Compiles and minifies for production
+```
+gulp build .tools folder
+```
+
