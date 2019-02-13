@@ -24,13 +24,13 @@ const autoprefixer = require('autoprefixer'),
       webpackStream = require('webpack-stream');
   
 const paths = {
-    template: '../src/*.html',
-    sass: '../src/sass/',
-    scripts: '../src/js',
-    fonts: '../src/fonts/**/*.ttf',
-    images: '../src/img/**/*.{jpg,jpeg,png,gif,svg}',
-    css: '../src/css',
-    build: '../build'
+    template: './src/*.html',
+    sass: './src/sass/',
+    scripts: './src/js',
+    fonts: './src/fonts/**/*.ttf',
+    images: './src/img/**/*.{jpg,jpeg,png,gif,svg}',
+    css: './src/css',
+    build: './build'
 }
 
 const esLintSettings = {
@@ -86,7 +86,7 @@ function scriptHelper(srcPath, buildPath, prefix) {
 
 gulp.task('serve', () => {
     browserSync.init({
-        server: '../src'
+        server: './src'
     });
 });
 
