@@ -1,3 +1,4 @@
+/* eslint-disable */
 const autoprefixer = require('autoprefixer'),
       babel        = require('gulp-babel'),
       browserSync  = require('browser-sync').create(),
@@ -18,7 +19,6 @@ const autoprefixer = require('autoprefixer'),
       sass         = require('gulp-sass'),
       sassLint     = require('gulp-sass-lint'),
       sourcemaps   = require('gulp-sourcemaps'),
-      stylelint    = require('stylelint'),
       uglify       = require('gulp-uglify'),
       webpack      = require('webpack'),
       webpackStream = require('webpack-stream');
